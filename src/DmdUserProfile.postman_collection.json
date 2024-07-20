@@ -1,0 +1,891 @@
+{
+	"info": {
+		"_postman_id": "22da849c-a05e-4302-83b8-a03a5619e778",
+		"name": "DmdUserProfile",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29579391"
+	},
+	"item": [
+		{
+			"name": "postUserProfile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"Nilesh\",\r\n    \"lastName\":\"Sagar\",\r\n    \"phoneNumber\":9284623877,\r\n    \"email\":\"nilesh12@gmail.com\",\r\n    \"address\":\"Latur\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:8080/UserProfile/addUserProfile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UserProfile",
+						"addUserProfile"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Nilesh sagar",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\":\"Nilesh\",\r\n    \"lastName\":\"Sagar\",\r\n    \"phoneNumber\":9284623877,\r\n    \"email\":\"nilesh12@gmail.com\",\r\n    \"address\":\"Latur\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/addUserProfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"addUserProfile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:22:56 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "UserProfile Save SuccessFully!"
+				},
+				{
+					"name": "ram more",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\":\"Ram\",\r\n    \"lastName\":\"More\",\r\n    \"phoneNumber\":8784623877,\r\n    \"email\":\"ramm43@gmail.com\",\r\n    \"address\":\"pune\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/addUserProfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"addUserProfile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:25:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "UserProfile Save SuccessFully!"
+				},
+				{
+					"name": "sagar Patil",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\":\"Sagar\",\r\n    \"lastName\":\"Patil\",\r\n    \"phoneNumber\":9876453877,\r\n    \"email\":\"Sagar09@gmail.com\",\r\n    \"address\":\"Mumbai\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/addUserProfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"addUserProfile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:27:45 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "UserProfile Save SuccessFully!"
+				},
+				{
+					"name": "Amol Shinde",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\":\"Amol\",\r\n    \"lastName\":\"Shinde\",\r\n    \"phoneNumber\":8453453877,\r\n    \"email\":\"amole67@gmail.com\",\r\n    \"address\":\"Nagpur\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/addUserProfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"addUserProfile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:29:27 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "UserProfile Save SuccessFully!"
+				},
+				{
+					"name": "Ramesh Vaghmare",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\":\"Ramesh\",\r\n    \"lastName\":\"Vaghmare\",\r\n    \"phoneNumber\":9612453877,\r\n    \"email\":\"Ramesh24@gmail.com\",\r\n    \"address\":\"Mumbai\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/addUserProfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"addUserProfile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:31:12 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "UserProfile Save SuccessFully!"
+				},
+				{
+					"name": "Raghav Dixit",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\":\"Raghav\",\r\n    \"lastName\":\"Dixit\",\r\n    \"phoneNumber\":8856323877,\r\n    \"email\":\"dixit01@gmail.com\",\r\n    \"address\":\"Kolhapur\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/addUserProfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"addUserProfile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:33:03 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "UserProfile Save SuccessFully!"
+				}
+			]
+		},
+		{
+			"name": "GetById",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Get UserProfile With Id 1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/getById?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"getById"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:41:44 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userId\": 1,\n    \"firstName\": \"Nilesh\",\n    \"lastName\": \"Sagar\",\n    \"email\": \"nilesh12@gmail.com\",\n    \"phoneNumber\": 9284623877,\n    \"address\": \"Latur\"\n}"
+				},
+				{
+					"name": "Get UserProfile With id 2",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/getById?id=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"getById"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:42:40 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userId\": 2,\n    \"firstName\": \"Ram\",\n    \"lastName\": \"More\",\n    \"email\": \"ramm43@gmail.com\",\n    \"phoneNumber\": 8784623877,\n    \"address\": \"pune\"\n}"
+				},
+				{
+					"name": "Get  UserProfile With id 5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/getById?id=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"getById"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:44:30 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userId\": 5,\n    \"firstName\": \"Ramesh\",\n    \"lastName\": \"Vaghmare\",\n    \"email\": \"Ramesh24@gmail.com\",\n    \"phoneNumber\": 9612453877,\n    \"address\": \"Mumbai\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete UserProfile",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/UserProfile/deleteUserProfile?id=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UserProfile",
+						"deleteUserProfile"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delet UserProfile With id 5",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/deleteUserProfile?id=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"deleteUserProfile"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "37"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:47:19 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "UserProfile delet Successfully with 5"
+				},
+				{
+					"name": "Delete UserProfile With id 3",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/deleteUserProfile?id=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"deleteUserProfile"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "37"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:49:54 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "UserProfile delet Successfully with 3"
+				}
+			]
+		},
+		{
+			"name": "Update UserProfile",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Radhika\",\r\n    \"lastName\": \"Ambani\",\r\n    \"email\": \"ambani18@gmail.com\",\r\n    \"phoneNumber\": 9412453877,\r\n    \"address\": \"Mumbai\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/UserProfile/updateUser?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UserProfile",
+						"updateUser"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update UserProfile with id 4",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\": \"Rajesh\",\r\n    \"lastName\": \"Shinde\",\r\n    \"email\": \"Rajesh094@gmail.com\",\r\n    \"phoneNumber\": 7412453877,\r\n    \"address\": \"Nanded\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/updateUser?id=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"updateUser"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:56:08 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userId\": 4,\n    \"firstName\": \"Rajesh\",\n    \"lastName\": \"Shinde\",\n    \"email\": \"Rajesh094@gmail.com\",\n    \"phoneNumber\": 7412453877,\n    \"address\": \"Nanded\"\n}"
+				},
+				{
+					"name": "Update UserProfile With id 1",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\": \"Radhika\",\r\n    \"lastName\": \"Ambani\",\r\n    \"email\": \"ambani18@gmail.com\",\r\n    \"phoneNumber\": 9412453877,\r\n    \"address\": \"Mumbai\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/updateUser?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"updateUser"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 11:59:41 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userId\": 1,\n    \"firstName\": \"Radhika\",\n    \"lastName\": \"Ambani\",\n    \"email\": \"ambani18@gmail.com\",\n    \"phoneNumber\": 9412453877,\n    \"address\": \"Mumbai\"\n}"
+				}
+			]
+		},
+		{
+			"name": "List All UserProfiles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/UserProfile/getList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UserProfile",
+						"getList"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ListUserProfile",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/UserProfile/getList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UserProfile",
+								"getList"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 20 Jul 2024 12:01:29 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"userId\": 1,\n        \"firstName\": \"Radhika\",\n        \"lastName\": \"Ambani\",\n        \"email\": \"ambani18@gmail.com\",\n        \"phoneNumber\": 9412453877,\n        \"address\": \"Mumbai\"\n    },\n    {\n        \"userId\": 2,\n        \"firstName\": \"Ram\",\n        \"lastName\": \"More\",\n        \"email\": \"ramm43@gmail.com\",\n        \"phoneNumber\": 8784623877,\n        \"address\": \"pune\"\n    },\n    {\n        \"userId\": 4,\n        \"firstName\": \"Rajesh\",\n        \"lastName\": \"Shinde\",\n        \"email\": \"Rajesh094@gmail.com\",\n        \"phoneNumber\": 7412453877,\n        \"address\": \"Nanded\"\n    },\n    {\n        \"userId\": 6,\n        \"firstName\": \"Raghav\",\n        \"lastName\": \"Dixit\",\n        \"email\": \"dixit01@gmail.com\",\n        \"phoneNumber\": 8856323877,\n        \"address\": \"Kolhapur\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
